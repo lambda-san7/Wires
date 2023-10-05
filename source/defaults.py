@@ -21,7 +21,9 @@ os.chdir(dir_path)
 # WINDOW
 ######################
 
-window = pygame.display.set_mode((900,600),pygame.RESIZABLE)
+size = 10
+
+window = pygame.display.set_mode((size * 30,size * 30))
 
 #pygame.mouse.set_visible(False)
 

@@ -7,6 +7,7 @@ import os
 import random
 import time
 from defaults import window, event, sprite, center
+from map import world
 
 #########################
 # SCENES
@@ -14,7 +15,7 @@ from defaults import window, event, sprite, center
 
 def game():
     window.fill((0,0,0))
-    sprite("tiles/terminal.gif").render(False, 100, 100, 30, 30)
+    world.render()
     event()
 
 scene = game
