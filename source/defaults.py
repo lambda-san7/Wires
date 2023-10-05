@@ -25,7 +25,7 @@ size = 10
 
 window = pygame.display.set_mode((size * 30,size * 30))
 
-#pygame.mouse.set_visible(False)
+pygame.mouse.set_visible(False)
 
 running = True
 

@@ -14,7 +14,7 @@ from map import world
 #########################
 
 def game():
-    window.fill((0,0,0))
+    window.fill((120,255,120))
     world.render()
     event()
 
@@ -26,4 +26,5 @@ scene = game
 
 while True:
     scene()
+    sprite("hammer.gif").render(False,pygame.mouse.get_pos()[0],pygame.mouse.get_pos()[1],30,30)
     pygame.display.update()

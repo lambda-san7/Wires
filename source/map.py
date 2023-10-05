@@ -11,7 +11,7 @@ from defaults import window, sprite, size
 
 class null_tile:
     def __init__(self):
-        self.sprite = sprite(f"tiles/terminal.gif")
+        self.sprite = sprite(f"tiles/no_sprite.gif")
     def render(self,x,y):
         self.sprite.render(False,x,y,30,30)
 
